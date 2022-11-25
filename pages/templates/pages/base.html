@@ -1,0 +1,58 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/style.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/responsive.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/color-four.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/prettyphoto.cs' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/slick-slider.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/flaticon.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/color.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/font-awesome.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/color-two.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/color-three.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/style.css' %}">
+  
+    <title>Document</title>
+</head>
+<body>
+     <!--// Header \\-->
+		<header id="wm-header" class="wm-header-one">
+
+            <!--// TopStrip \\-->
+			<div class="wm-topstrip">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                         <!--   <div class="wm-language"> <ul> <li><a href="#">English</a></li> <li><a href="#">español</a></li> </ul> </div>
+                            <ul class="wm-stripinfo">
+                                <li><i class="wmicon-location"></i> 2925 Swick Hill Street, Charlotte, NC 28202</li>
+                                <li><i class="wmicon-technology4"></i> +1 984-700-7129</li>
+                                <li><i class="wmicon-clock2"></i> Mon - fri: 7:00am - 6:00pm</li>
+                            </ul>-->
+                            <ul class="wm-adminuser-section">
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#ModalLogin">login</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="wm-search-btn" data-toggle="modal" data-target="#ModalSearch"><i class="wmicon-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    {% block main%}
+
+    {% endblock%}
+</body>
+</html> 
